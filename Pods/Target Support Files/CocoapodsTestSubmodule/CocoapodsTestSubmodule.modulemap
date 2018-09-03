@@ -1,0 +1,6 @@
+framework module CocoapodsTestSubmodule {
+  umbrella header "CocoapodsTestSubmodule-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - CocoapodsTestSubmodule (1.0.1)
+
+DEPENDENCIES:
+  - CocoapodsTestSubmodule (from `./CocoapodsTest.Submodule`)
+
+EXTERNAL SOURCES:
+  CocoapodsTestSubmodule:
+    :path: "./CocoapodsTest.Submodule"
+
+SPEC CHECKSUMS:
+  CocoapodsTestSubmodule: 5f59aa10236304e40c827ada62ab58a1d9c76285
+
+PODFILE CHECKSUM: 152ceae6ea26723e8065a0dc6e429b23e36f2fc5
+
+COCOAPODS: 1.6.0.beta.1

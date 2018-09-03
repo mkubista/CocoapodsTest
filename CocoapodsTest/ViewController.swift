@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import CocoapodsTestSubmodule
 
 class ViewController: UIViewController {
 
+    @IBOutlet var label: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        label.text = Utils.getString()
     }
 
 
